@@ -1,4 +1,5 @@
-#!/usr/bin/pthon3
+#!/usr/bin/python3
+
 
 def roman_to_int(roman_string):
     """Converts a roman numeral to an integer."""
@@ -23,7 +24,7 @@ def roman_to_int(roman_string):
 
         if (i != (len(roman_string) - 1) and
                 roman_dict[roman_string[i]] < roman_dict[roman_string[i + 1]]):
-                num += roman_dict[roman_string[i]] * -1
+            num += roman_dict[roman_string[i]] * -1
 
         else:
             num += roman_dict[roman_string[i]]
