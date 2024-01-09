@@ -1,10 +1,14 @@
 #!/usr/bin/python3
-# 3-to_json_string.py
-#velma
-"""Defines a string-to-JSON function."""
+"""
+    3-to_json_string: to_json_string()
+"""
+
+
 import json
 
 
 def to_json_string(my_obj):
-    """Return the JSON representation of a string object."""
-    return json.dumps(my_obj)
+    """
+        returns the JSON representation of an object.
+    """
+    return (json.dumps(my_obj))
